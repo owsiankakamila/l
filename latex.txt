@@ -1,0 +1,101 @@
+\mbox{} zeby nie rozdzielalo np Mickie-wicz
+~
+
+3 obrazki kolo siebie
+ \begin{figure}[!htb]
+ 	\centerline{\includegraphics[scale=0.4]{uklad1.jpg}\quad\includegraphics[scale=0.4]{uklad2.jpg}\quad\includegraphics[scale=0.4]{uklad3.jpg}}
+ 	\caption{Uklady scalone}
+ 	\label{fig:symboleBramek}
+ \end{figure}
+ew. podzielic wdth na 3 jakos
+
+rysunek \ref{fig:symboleBramek} -dopisze jego numer
+
+\vspace \hspace{ ile przestrzeni dodac
+{jednostki szerokosci}
+\cline{2-4} linia pozioma od 2 do 4
+
+
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+% babel za nimi
+\usepackage[polish]{babel}
+
+
+$ \! $ zmiana odleglosci miedzy literami (
+
+WZOR w osobnej linii -- tryb display 
+- w lini tekstu: $bla bla $  LUB \(  \)
+- osobna linia: $$ bla bla $$ $$ LUB \[  \]
+\begin*{equation} 
+
+\end{equation}
+\documentclass[a4paper,11pt,fleqn]{article}
+\delta \Delta
+\diam srednia
+sin /x/ (// kursywą)
+
+latex wikibooks floats figures
+pakiet wrapfig .. framed (ramka)
+
+JEDNA KOMORKA NA PRAWO W ATBELI
+\multicolumn{1}{r|}{total}
+
+UMIJESCOWIENIE I OGLONIE OBRAKZI
+https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions
+
+BEZ FIGURE 1: blabla...
+\usepackage{caption}
+\capture*
+
+BOX PRZY OBRAZKU
+https://tex.stackexchange.com/questions/224270/boxed-caption-and-figure-with-colored-caption
+\usepackage{xcolor}
+\usepackage[export]{adjustbox}
+https://tex.stackexchange.com/questions/241391/colored-frame-in-includegraphics-environment
+
+RAMKA DOOKOLA OBRAZKa
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+
+\includegraphics[width=\linewidth, frame]{figure-filename}
+
+PO OBRAZU ZA DUZO SPACJI
+\vspace{-20pt}
+
+ułamek
+\frac{1}{2}
+
+MATMA:
+http://www.latex-kurs.x25.pl/paper/wyrazenia_matematyczne#Znak
+WZORY: KLAMRA DUZA, ULAMEK, <=
+\begin{equation}
+ \label{eq:funkcja\mu}
+ \mu_A = \left\lbrace
+ \begin{array}{rcl}
+ 1 & : & x < 10,\\
+ -\frac{1}{10} + 2 & : &10 \leqslant x \leqslant 20,\\
+ 0 & : & x > 20.\\
+ \end{array}\right.
+ \end{equation}
+
+SUMA
+\sum_{i=1}^{n} \quad
+
+
+
+
+
+biblio nazwiska oddzielamy and
+przecinki
+
+czasami skasować bbl jak nie ma poprawek
+
+
+
+
+
+
+
+

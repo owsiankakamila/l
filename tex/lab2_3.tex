@@ -1,0 +1,58 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin2]{inputenc}
+\usepackage[polish]{babel}
+
+\usepackage{amsthm}
+\usepackage{times}
+\usepackage{anysize}
+
+\marginsize{1.5cm}{1.5cm}{1.5cm}{1.5cm}
+\sloppy 
+
+\theoremstyle{definition}
+\newtheorem{df}{Definicja}
+
+
+\begin{document}
+	Istnieje scis³y zwi ²azek mi²edzy rozk³adem macierzy ´ $A$ na macierze$ L$ i$ U$ a metod ²a eliminacji Gaussa.
+	Mozna wykaza ÿ c,´ ze elementy kolejnych kolumn macierzy ÿ $L$ s ²a równe wspó³czynnikom przez które mnozone
+	s ²a w kolejnych krokach wiersze uk³adu równa ÿ n celem dokonania eliminacji niewiadomych w odpo- ´
+	wiednich kolumnach. Natomiast macierz $U$ jest równa macierzy trójk ²atnej uzyskanej w eliminacji Gaussa.
+	
+	$$
+	[A|b]=
+	\left[ \begin{array}{cccc}
+	2 & 2 & 4 & 4 \\
+	1 & 2 & 2 & 4 \\
+	1 & 4 & 1 & 1 \\
+	\end{array} \right] =
+	\left[ \begin{array}{ccrrc}
+	2 & 2 & 4 & 4 \\
+	1 & 2 & 2 & 4 \\
+	1 & 4 & -1 & -1 \\
+	\end{array} \right] =
+	\left[ \begin{array}{ccrr}
+	2 & 2 & 4 & 4 \\
+	1 & 2 & 2 & 4 \\
+	1 & 4 & 1 & 1 \\
+	\end{array} \right]	$$
+	
+$$
+	L = \left[ \begin{array}{ccc}
+2 & 2 & 4  \\
+1 & 2 & 2  \\
+1 & 4 & 1  \\
+\end{array} \right]
+\qquad
+U=\left[ \begin{array}{ccrr}
+2 & 2 & 4 & 4 \\
+1 & 2 & 2 & 4 \\
+1 & 4 & -1 & -1 \\
+\end{array} \right]
+$$
+	
+
+
+	
+\end{document}

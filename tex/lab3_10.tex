@@ -1,0 +1,40 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{anysize}
+\usepackage{times}
+\usepackage{multirow}
+\usepackage{array}
+ 
+%\marginsize{left}{right}{top}{bottom}
+\marginsize{3cm}{3cm}{3cm}{3cm}
+\sloppy
+ 
+\begin{document}
+ 
+\begin{table}[htbp]
+\label{Tab:SRNRValues}
+\begin{center}
+\begin{tabular}{|l l | l l|}
+\hline
+Command & Output & Command & Output \\
+\hline
+\textbackslash{k\{a\}}& \k{a}  &\textbackslash{k\{a\}} &\k{A} \\
+\textbackslash{'c}& \'c  &\textbackslash{'C} &\'C \\
+\textbackslash{k\{e\}}& ę  &\textbackslash{k\{E\}} &Ę \\
+\textbackslash{k\{l\}}& ł  &\textbackslash{k\{L\}} &Ł \\
+\textbackslash{'o}& ó  &\textbackslash{'O} & \'O \\
+\textbackslash{'n}& ń  &\textbackslash{'N}&Ń \\
+\textbackslash{'s}& ś  &\textbackslash{'S} &\'S \\
+\textbackslash{'z}& \'z &\textbackslash{'z} & \'Z \\
+\textbackslash{.z}& \.z  &\textbackslash{.Z} &\.Z\\
+\verb|/asdfsa|\\
+\hline
+\end{tabular}
+
+
+\end{center}
+\end{table}
+ 
+\end{document}
